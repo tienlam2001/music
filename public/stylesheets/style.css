@@ -1,0 +1,54 @@
+
+div#App{
+  width: 600px;
+  height:800px;
+}
+
+div#container{
+  width:100%;
+  height:90%;
+  border:1px solid black;
+  overflow-y: scroll;
+  font-size: 20px
+
+}
+div#chatBox{
+  height:80%
+}
+
+input#chat{
+  width:80%;
+  height:10%;
+  font-size: 30px;
+}
+
+button#submit{
+  width:auto;
+  height: auto;
+  font-size: 30px;
+}
+
+
+img#animation{
+  width:100vw;
+  height:100vh;
+}
+
+
+div#root{
+  position: absolute;
+  left: 0;
+  top:0;
+  border: 1px solid white;
+  width: 600px;
+  height:800px;
+  background-color: white;
+  opacity: 0.5;
+}
+html{
+  overflow: hidden;
+}
+
+video{
+  display: none;
+}
