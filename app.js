@@ -90,7 +90,5 @@ app.use(function(err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
-http.listen(4000, () => {
-	console.log("connect 4000")
-});
+http.listen(process.env.PORT || 5000)
 // module.exports = app;
